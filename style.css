@@ -23,6 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 6px;
+    padding-top: 20px;
     justify-content: center;
 
 }
@@ -33,7 +34,7 @@ body{
     height: 80px;
     /* background-color: rgb(185, 185, 185); */
     margin-right: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border-radius: 6px;
     display: flex;
     flex-direction: row;
@@ -45,13 +46,56 @@ body{
     height: 80px;
     background-color: #26547C;
     margin: 0 8px;
-    border-radius: 6px;
+    border-radius: 18px;
+    box-shadow: 0px 5px #142C41;
 }
 
-.item-total{
-    width: 70%;
-    height: 80px;
-    background-color: #26547C;
-    margin: 0 8px;
-    border-radius: 6px;
+.calculator-item:hover{
+    background-color: #1c3c59;
+    cursor: pointer;
 }
+
+#item-clean{
+    width: 18%;
+    background-color: #FFD166;
+    box-shadow: 0px 5px #CC8F02;
+   
+}
+#item-clean:hover{
+    background-color: #f9c242;
+
+}
+
+#item-total{
+    width: 70%;
+    height: 70px;
+    background-color: #26547C;
+    box-shadow: 0px -4px #142C41;
+    margin: 0 8px;
+    margin-top: 7px;
+    border-radius: 16px;
+}
+
+.btn-yellow{
+    background-color: #FFD166;
+    box-shadow: 0px 5px #CC8F02;
+}
+
+.btn-yellow:hover{
+    background-color: #f9c242;
+
+}
+
+.btn-green{
+    background-color: #0AD6A1;
+    box-shadow: 0px 5px #068C68;
+}
+
+.btn-green:hover{
+    background-color: #08b788;
+}
+
+.icon{
+    font-size: 3.4rem;
+}
+
