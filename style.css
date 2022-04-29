@@ -17,8 +17,8 @@ body{
 
 .calculator-container{
     background-color: #EF466F;
-    width: 600px;
-    height: 500px;
+    max-width: 600px;
+    max-height: 500px;
     border-radius: 20px;
     box-shadow: 0px 6px #FF0000;
     display: flex;
@@ -32,7 +32,7 @@ body{
 .calculator-row{
     position: relative;
     width: 100%;
-    height: 80px;
+    max-height: 80px;
     /* background-color: rgb(185, 185, 185); */
     margin-right: 4px;
     margin-bottom: 16px;
@@ -49,6 +49,9 @@ body{
     margin: 0 8px;
     border-radius: 18px;
     box-shadow: 0px 5px #142C41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calculator-item:hover{
@@ -58,14 +61,9 @@ body{
 
 #item-clean{
     width: 18%;
-    background-color: #FFD166;
-    box-shadow: 0px 5px #CC8F02;
    
 }
-#item-clean:hover{
-    background-color: #f9c242;
 
-}
 
 #item-total{
     width: 70%;
@@ -75,11 +73,19 @@ body{
     margin: 0 8px;
     margin-top: 7px;
     border-radius: 16px;
+    display: flex;
+    justify-content: end;
+
+}
+
+#total{
+    margin-right: 16px;
 }
 
 .btn-yellow{
     background-color: #FFD166;
     box-shadow: 0px 5px #CC8F02;
+    color: grey;
 }
 
 .btn-yellow:hover{
@@ -97,6 +103,10 @@ body{
 }
 
 .icon{
-    font-size: 3.4rem;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
 }
-
+.grey{
+    color: grey;
+}
